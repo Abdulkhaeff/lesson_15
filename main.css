@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+}
+#navbar ul{
+    position: relative;
+}
+#navbar ul li{
+    display: inline-block;
+    margin: 50px 5px 10px 5px;
+    background-color: #ffc600;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+}
+.grid{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin-top: 20px;
+    margin: 20px;
+}
+.container1{
+    height: 400px;
+    background: black url(https://st3.depositphotos.com/9834068/12726/i/950/depositphotos_127266724-stock-photo-hot-dog-with-pickles-tomatoes.jpg);
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-content: center;
+    margin-left: 23px;
+}
+    .font{
+        text-align: center;
+        margin-top: 160px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 22px;
+        opacity: 0.8;
+        background-color: black;
+        border-radius: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+.container2{
+    background: #ffc600;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.container3{
+    background: #ffc600;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.fonts{
+    text-align: center;
+    margin: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+.section2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin:0px 50px 0px 50px;
+}
+.icons1{
+    background-color: white;
+    padding: 25px 35px 25px 35px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+    color: rgb(153, 153, 153)2, 68, 68
+    ;
+}
+.icon{
+    font-size: 50px;
+}
+#body{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section3{
+    display: flex;
+    width: 95%;
+    margin-right: 60px;
+    background: white;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.textt{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
